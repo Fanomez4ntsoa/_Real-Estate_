@@ -3,13 +3,13 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title> LUXE </title>
+	<title> Luxe </title>
 	<!-- FavIcon -->
 	<link rel="shortcut icon" href="assets/img/favicon.png">
 	<!-- BoxIcon -->
 	<link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 	<!-- Swiper CSS -->
-
+	<link rel="stylesheet" type="text/css" href="assets/css/swiper-bundle.min.css">
 	<!-- CSS -->
 	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
 </head>
@@ -112,18 +112,146 @@
 
 		<!-- Logos -->
 		<section class="logos section">
-			
+			<div class="logos__container container grid">
+				<div class="logos__img">
+					<img src="assets/img/logo1.png" alt="">
+				</div>
+				<div class="logos__img">
+					<img src="assets/img/logo2.png" alt="">
+				</div>
+				<div class="logos__img">
+					<img src="assets/img/logo3.png" alt="">
+				</div>
+				<div class="logos__img">
+					<img src="assets/img/logo4.png" alt="">
+				</div>
+			</div>
 		</section>
 
 		<!-- popular -->
-		<section class="section" id="popular">
-			
+		<section class="popular section" id="popular">
+			<div class="container">
+				<span class="section__subtitle"> Meilleur choix </span>
+				<h2 class="section__title">
+					Résidences populaires <span>.</span>
+				</h2>
+				<div class="popular__container swiper">
+					<div class="swiper-wrapper">
+						<article class="popular__card swiper-slide">
+							<img class="popular__img" src="assets/img/popular1.jpg" alt="">
+							<div class="popular__data">
+								<h2 class="popular__price">
+									265.000<span> Ar</span>
+								</h2>
+								<h3 class="popular__title">
+									Garden City Assat
+								</h3>
+								<p class="popular__description">
+									Street The Garden City Of Miraflores,
+									Lima - Perù Av. Sol #9876
+								</p>
+							</div>
+						</article>
+
+						<article class="popular__card swiper-slide">
+							<img class="popular__img" src="assets/img/popular2.jpg" alt="">
+							<div class="popular__data">
+								<h2 class="popular__price">
+									140.000<span> Ar</span>
+								</h2>
+								<h3 class="popular__title">
+									Gables Luxurious House
+								</h3>
+								<p class="popular__description">
+									Street The Garden City Of Miraflores,
+									Lima - Perù Av. Sol #9874
+								</p>
+							</div>
+						</article>
+
+						<article class="popular__card swiper-slide">
+							<img class="popular__img" src="assets/img/popular3.jpg" alt="">
+							<div class="popular__data">
+								<h2 class="popular__price">
+									300.000<span> Ar</span>
+								</h2>
+								<h3 class="popular__title">
+									Garden Orchard City
+								</h3>
+								<p class="popular__description">
+									Street The Garden City Of Miraflores,
+									Lima - Perù Av. Sol #9875
+								</p>
+							</div>
+						</article>
+
+						<article class="popular__card swiper-slide">
+							<img class="popular__img" src="assets/img/popular4.jpg" alt="">
+							<div class="popular__data">
+								<h2 class="popular__price">
+									248.000<span> Ar</span>
+								</h2>
+								<h3 class="popular__title">
+									Luxurious City Garden
+								</h3>
+								<p class="popular__description">
+									Street The Garden City Of Miraflores,
+									Lima - Perù Av. Sol #9879
+								</p>
+							</div>
+						</article>
+
+						<article class="popular__card swiper-slide">
+							<img class="popular__img" src="assets/img/popular5.jpg" alt="">
+							<div class="popular__data">
+								<h2 class="popular__price">
+									188.000<span> Ar</span>
+								</h2>
+								<h3 class="popular__title">
+									Aliva Private Garden
+								</h3>
+								<p class="popular__description">
+									Street The Garden City Of Miraflores,
+									Lima - Perù Av. Sol #9872
+								</p>
+							</div>
+						</article>
+					</div>
+					<div class="swiper-button-next">
+						<i class='bx bx-chevron-right'></i>
+					</div>
+      		<div class="swiper-button-prev">
+      			<i class='bx bx-chevron-left'></i>
+      		</div>
+				</div>
+			</div> 
 		</section>
 
 		<!-- value -->
-		<section class="value">
+		<section class="value section" id="value">
+			<div class="value__container container grid">
+				<div class="values__images">
+					<div class="value__orbe"></div>
+					<div class="value__img">
+						<img src="assets/img/value.jpg" alt="">
+					</div>
+				</div>
+
+				<div class="value__content">
+					<div class="value__data">
+						<span class="section__subtitle">Nos valeurs</span>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- contact -->
+		<section class="contact section" id="contact">
 			
 		</section>
+
+		<!-- subscribe -->
+		<section class="subscribe section"></section>
 	</main>
 
 	<!-- Footer -->
@@ -133,7 +261,7 @@
 	<!-- ScrollReveal -->
 
 	<!-- Swiper Js -->
-
+	<script type="text/javascript" src="assets/js/swiper-bundle.min.js"></script>
 	<!-- JS -->
 	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 	<script type="text/javascript" src="assets/js/script.js"></script>
