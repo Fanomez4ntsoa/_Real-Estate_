@@ -1,5 +1,5 @@
 /* Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Roboto:wght@300;400;500&family=Poppins:wght@400;500;600;700&display=swap');
 
 /* Variable css */
 :root {
@@ -163,6 +163,7 @@ body.dark-theme {
 }
 
 /* Classes css réutilisables */
+
 .container {
 	max-width: 1024px;
 	margin-left: 1.5rem;
@@ -1220,9 +1221,21 @@ body.dark-theme {
 }
 
 @media screen and (min-width: 1040px) {
+	.home__title {
+		font-size: 2.95rem;
+	}
+	.home__description {
+		font-size: var(--normal-font-size);
+	}
+
 	.container {
 		margin-left: auto;
 		margin-right: auto;
+	}
+
+	.value__description,
+	.contact__description {
+		font-size: var(--small-font-size);
 	}
 
 	.home__container {
